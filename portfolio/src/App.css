@@ -55,8 +55,9 @@ body {
   --white: #ffffff;
 }
 .btn--primary {
+  cursor: pointer;
   background-color: var(--white);
-  padding: 8px;
+  padding: 15px 40px;
   border-radius: 8px;
   border-color: var(--primary);
   border: 1px solid var(--primary);
@@ -72,9 +73,14 @@ body {
   justify-content: space-around;
   align-items: center;
   padding: 10px 20px;
-  /* border: 2px solid var(--bg-shade); */
-  /* background-color: var(--bg-shade); */
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--white);
+  /* z-index: 1000; */
 }
+
 .navbar--pic img {
   width: 50px;
   height: auto;
@@ -92,4 +98,61 @@ body {
 .navbar--button {
   justify-content: flex-end;
   align-items: center;
+}
+/* Home Styles */
+.home--container {
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg-shade);
+}
+.home--pic img {
+  width: 100%;
+  height: 100%;
+}
+.home--contents {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  height: 100%;
+  gap: 25px;
+}
+.home--btn--primary {
+  font-size: 18px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+  background-color: var(--primary);
+  padding: 15px 20px;
+  border-radius: 8px;
+  width: 30%;
+  border-color: var(--bg-shade);
+  border: 1px solid var(--bg-shade);
+  color: var(--bg-shade);
+}
+.home--btn--primary:hover {
+  background-color: var(--bg-shade);
+  border: 1px solid var(--primary);
+  color: var(--primary);
+}
+.home--title {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+.home--heading {
+  font-size: 70px;
+  padding: 0;
+  margin: 0;
+}
+.home--heading--span {
+  /* color: var(--primary); */
+}
+.home--description {
+  font-size: 25px;
+  padding: 0 0 20px 0;
+  margin: 0;
 }
