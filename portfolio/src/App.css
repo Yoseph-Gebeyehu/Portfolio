@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,61 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+/* Global CSS */
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: "Roboto", sans-serif;
+  -moz-osx-font-smoothing: "Roboto", sans-serif;
+  font-style: normal;
+}
+:root {
+  --primary: #5e3bee;
+  --heading-color: #282938;
+  --bg-shade: #f5fcff;
+  --github: #e62872;
+  --darkblue: #1c1e53;
+  --black: #000000;
+  --white: #ffffff;
+}
+.btn--primary {
+  background-color: var(--white);
+  padding: 8px;
+  border-radius: 8px;
+  border-color: var(--primary);
+  border: 1px solid var(--primary);
+  color: var(--primary);
+}
+.btn--primary:hover {
+  background-color: var(--primary);
+  color: var(--white);
+}
+/* Nav bar Style */
+.navbar--container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 20px;
+  /* border: 2px solid var(--bg-shade); */
+  /* background-color: var(--bg-shade); */
+}
+.navbar--pic img {
+  width: 50px;
+  height: auto;
+}
+.navbar--links ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  gap: 100px;
+}
+.navbar--links li {
+  list-style: none;
+}
+.navbar--button {
+  justify-content: flex-end;
+  align-items: center;
 }
