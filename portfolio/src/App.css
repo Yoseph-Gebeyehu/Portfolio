@@ -78,7 +78,7 @@ body {
   left: 0;
   right: 0;
   background-color: var(--white);
-  /* z-index: 1000; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .navbar--pic img {
@@ -149,10 +149,54 @@ body {
   margin: 0;
 }
 .home--heading--span {
-  /* color: var(--primary); */
 }
 .home--description {
   font-size: 25px;
   padding: 0 0 20px 0;
   margin: 0;
+}
+/* My Skills */
+.my--skill--section {
+  background-color: var(--white);
+  padding: 100px;
+}
+.my--skill--heading {
+  font-size: 32px;
+  font-weight: 900;
+  margin: 0;
+  padding: 0;
+}
+.my--skill--title > p {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+.my--skill--lists {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  padding: 90px 0;
+}
+.my--skill--lists--items {
+  border-radius: 33px;
+  padding: 20px;
+  background-color: var(--bg-shade);
+}
+.my--skill--lists--items:hover {
+  border-bottom: 4px solid var(--primary);
+}
+.my--skill--lists--items--title {
+  font-weight: 700;
+}
+.my--skill--lists--items--description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.my--skill--lists--items--pic {
+  border-radius: 10px;
+  background-color: var(--white);
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }

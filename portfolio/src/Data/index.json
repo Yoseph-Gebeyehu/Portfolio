@@ -1,0 +1,65 @@
+{
+  "skills": [
+    {
+      "id": "1",
+      "src": "./img/product-chain-1.png",
+      "title": "Front-End",
+      "description": "With a strong proficiency in React, I craft engaging and dynamic user interfaces that enhance user experiences. My expertise lies in developing responsive and performant web applications using React's component-based architecture. I am skilled in managing application state with tools like Redux, and I ensure seamless interaction through efficient use of hooks and context. My projects showcase a deep understanding of React’s lifecycle methods, JSX, and modern JavaScript (ES6+), combined with a commitment to best practices and clean, maintainable code."
+    },
+    {
+      "id": "2",
+      "src": "./img/feather-pen-1.png",
+      "title": "Mobile App",
+      "description": "As a Flutter developer, I specialize in creating beautiful, natively compiled applications for mobile, web, and desktop from a single codebase. Leveraging the power of Dart, I build high-performance, visually appealing cross-platform applications that offer a seamless user experience. My skills include working with Flutter widgets to create custom UI components, managing state with Provider and Bloc, and integrating APIs for dynamic functionality. I am dedicated to following Flutter’s best practices, ensuring that my applications are scalable, maintainable, and optimized for performance."
+    }
+  ],
+  "portfolio": [
+    {
+      "id": "1",
+      "src": "./img/placeholder-image.png",
+      "title": "E-Commerce",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi .",
+      "link": "View In Github"
+    },
+    {
+      "id": "2",
+      "src": "./img/placeholder-image-1.png",
+      "title": "Task Manager",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi .",
+      "link": "View In Github"
+    },
+    {
+      "id": "3",
+      "src": "./img/placeholder-image-2.png",
+      "title": "Shopping",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi .",
+      "link": "View In Github"
+    }
+  ],
+  "testimonial": [
+    {
+      "id": "1",
+      "count": "5",
+      "src": "./img/avatar-image.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi .",
+      "author_name": "Dianne Russel",
+      "author_designation": "Starbucks"
+    },
+    {
+      "id": "2",
+      "count": "5",
+      "src": "./img/avatar-image-1.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi .",
+      "author_name": "Krystin Watson",
+      "author_designation": "Louis Vuitton"
+    },
+    {
+      "id": "3",
+      "count": "5",
+      "src": "./img/avatar-image-2.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi .",
+      "author_name": "Kathrym Murphy",
+      "author_designation": "McDonald's"
+    }
+  ]
+}
