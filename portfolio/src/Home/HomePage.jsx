@@ -4,12 +4,12 @@ export default function HomePage() {
       <div className="home--container">
         <div className="home--contents">
           <p className="home--title">Hey I'm Yoseph</p>
-          <h2 className="home--heading">
-            <span className="home--heading--span">Full Stack</span> Developer
-          </h2>
+          <h2 className="home--heading">Full Stack Developer</h2>
           <p className="home--description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
-            nulla.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            <br />
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure sunt
+            maxime nisi exercitationem laborum!
           </p>
           <button className="home--btn--primary">Get In Touch</button>
         </div>

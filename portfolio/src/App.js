@@ -4,6 +4,7 @@ import HomePage from "./Home/HomePage";
 import MySkills from "./Home/MySkills";
 import AboutMe from "./Home/AboutMe";
 import Portfolio from "./Home/Portfolio";
+import Footer from "./Home/Footer";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <MySkills />
       <AboutMe />
       <Portfolio />
+      <Footer />
     </div>
   );
 }
