@@ -5,16 +5,7 @@ export default function Footer() {
   return (
     <footer className="footer--section" id="Footer">
       <div className="footer--container">
-        {/* <div className="footer--pic">
-          <img src="./logo192.png" alt="footer-pic" />
-        </div> */}
-        {/* <div className="footer--contents">
-          <h4>Home</h4>
-          <h4>Portfolio</h4>
-          <h4>About Me</h4>
-        </div> */}
         <div className="footer--links">
-          {/* Social media links with icons */}
           <a
             href="https://github.com/Yoseph-Gebeyehu"
             target="_blank"
@@ -43,6 +34,10 @@ export default function Footer() {
           >
             <FaFacebook />
           </a>
+        </div>
+        <div>
+          <hr className="divider" />
+          <p>Made by Yoseph Gebeyehu</p>
         </div>
       </div>
     </footer>

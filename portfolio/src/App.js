@@ -9,7 +9,7 @@ import Footer from "./Home/Footer";
 function App() {
   return (
     <div>
-      <NavBar />
+      {/* <NavBar /> */}
       <HomePage />
       <MySkills />
       <AboutMe />
