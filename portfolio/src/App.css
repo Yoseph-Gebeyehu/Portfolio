@@ -108,9 +108,9 @@ body {
   align-items: center;
   background-color: var(--bg-shade);
 }
-.home--pic img {
-  width: 100%;
-  height: 100%;
+.home--pic > img {
+  /* width: 100%;
+  height: 100%; */
 }
 .home--contents {
   display: flex;
@@ -218,8 +218,6 @@ body {
   flex-direction: column;
 }
 .about--me--pic {
-  width: 100%;
-  height: 100%;
   flex: 1;
   display: flex;
   justify-content: center;
@@ -373,6 +371,11 @@ body {
   }
 }
 @media only screen and (max-width: 1200px) {
+  /* Navbar */
+  .navbar--container {
+    width: 100%;
+  }
+
   /* Home */
   .home--container {
     display: flex;
@@ -391,12 +394,34 @@ body {
   .home--description {
     text-align: center;
   }
+  .home--pic > img {
+    width: 100%;
+    height: 100%;
+  }
+  .home--btn--primary {
+    width: 100%;
+  }
+
   /* Skills */
   .my--skill--lists {
     display: flex;
     flex-direction: column-reverse;
     gap: 15px;
     padding: 10px 0;
+  }
+  /* Portfolio */
+  .portfolio--lists {
+    flex-direction: column;
+  }
+  .portfolio--section {
+    align-items: center;
+  }
+  .portfolio--content {
+    flex-direction: column;
+  }
+  .portfolio--lists--cotainer > img {
+    width: 100%;
+    height: 50%;
   }
   /* About Me */
   .about--me--container {
@@ -409,15 +434,14 @@ body {
     gap: 0;
     padding: 0;
   }
-  /* Portfolio */
-  .portfolio--lists {
-    flex-direction: column;
+  .about--me--paragraph > h2 {
+    font-size: 40px;
   }
-  .portfolio--section {
-    align-items: center;
+  .about--me--pic > img {
+    width: 100%;
+    height: 100%;
   }
-  .portfolio--content {
-    flex-direction: column;
-  }
+}
+@media only screen and (max-width: 1000px) {
 }
 /* Responsive Screens Ends */
